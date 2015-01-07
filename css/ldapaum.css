@@ -1,0 +1,567 @@
+*{margin: 0px; padding: 0px};
+
+.card-container.card {
+    width: 350px;
+    padding: 40px 40px;
+}
+
+.btn {
+    font-weight: 700;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.form-signin input[type=Login],
+.form-signin input[type=Senha],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/*------------Menu.php-----------------*/
+
+#cadastro1{
+    margin-top: 1px;
+    width: 600px;
+}
+
+#cadastro1 a{
+    width: 108px;
+    height: 32px;
+    font-size: 11px;
+}
+
+#cadastro1 form input{
+    width: 350px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+#cadastro1 button{
+    width: 140px;
+    float: right;
+    margin-right: 75px;
+    margin-left: -40px;
+}
+
+.navbar{
+    background: #335CAD;
+    width: 95em;
+    margin-left: 15px;
+}
+
+#menu2 a[href$='#6']{
+    margin-left: 830px;
+    font-size: smaller;
+}
+
+#menu2{
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu2 ul {
+    position: absolute;
+    margin: 0;
+    margin-top: 15px;
+    list-style:none;    
+    background: #335CAD;
+}
+
+#menu2 li {
+    display: inline-block;
+    padding: 0px 10px;
+    position: relative;
+}
+
+#menu2 li:hover > ul {
+    display: block;
+    padding: 0px 0px;
+    height: auto;
+    margin-left: -10px;
+}
+
+#menu2 ul ul {
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 0px 10px;       
+}
+
+#menu2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#menu2 ul ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    
+}
+
+#menu3{
+        margin-top: 2em;
+        display: none;
+}
+
+#procura1{
+        margin-top: 5.5em;
+}
+
+#procura2{
+        margin-top: -25px;
+        margin-left: 460px; //433px;
+}
+
+#procura2 img{
+        margin-top: -1em;
+        margin-left: 4em;
+        display: none;
+}
+
+#procura2 select{
+        height: 22px;
+        width: auto;
+        background: #335CAD;
+        color: white;
+}
+
+#procura2 input{
+        margin-top: 0px;
+        height: 22px;
+        width: 130px;
+        text-align: center;
+}
+
+#procura2 label{
+        margin-top: -32px;
+        margin-left: 140px;
+}
+
+#procura2 p{
+        width: 300px;
+        margin-top: -55px;
+        background: #060;
+        display: none;
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+}
+
+#procura3 table{
+        font-size: 15px;
+        font-weight:100;
+}
+
+#procura3, table, thead, th, td, tr{
+        width: 95em;
+}
+
+#procura3 th{
+        color: white;
+        background: #335CAD;
+}
+
+#procura4{
+        margin: 0px;
+        margin-top: 50px;
+        margin-left: 130px; //30px;
+        height: 27px;
+        width: 300px;
+        background: #335CAD;
+        padding: 0px;
+        display: none;
+}
+
+#procura4 .user{
+        margin-left: 18px;
+        height: 22px;
+        width: 120px;
+}
+
+#procura4 .login{
+        margin-top: -32px;
+        margin-left: -9em;
+        height: 22px;
+        width: 120px;
+        display: none;
+        background: #335CAD;
+        color: white;
+        border: none;
+        outline: none;
+}
+
+#procura4 select{
+        margin-top: -31px;
+        margin-left: 145px;
+        width: 95px;
+        background: #335CAD;
+        color: white;
+        border: none;
+        outline: none;
+}
+
+#procura4 .submeter{
+        margin-top: -31px;
+        margin-left: 250px;
+        width: 45px;
+        height: 20px;
+        font-size: 12px;
+        border: none;
+}
+
+#procura4 .botao{
+        margin-top: -10px;
+        margin-left: 282px;
+        width: 18px;
+        height: 16px;
+        font-size: 10px;
+        font-weight:bold;
+        background: #335CAD;
+        color: white;
+        border: none;
+        outline: none;
+}
+
+#procura5{
+        margin: 0px;
+        margin-top: 50px;
+        margin-left: 0px; //-91px;
+        height: 27px;
+        width: 430px;
+        background: #335CAD;
+        padding: 0px;
+        display: none;
+}
+
+#procura5 .senha{
+        margin-left: 140px;
+        height: 22px;
+        width: 120px;
+}
+
+#procura5 .login{
+        margin-top: -32px;
+        margin-left: 1em;
+        height: 22px;
+        width: 120px;
+/*        color: red;
+        background: white;
+        border: none;
+        outline: none; */
+}
+
+#procura5 select{
+        margin-top: -31px;
+        margin-left: 270px;
+        width: 100px;
+        background: #335CAD;
+        color: white;
+        border: none;
+        outline: none;
+}
+
+#procura5 .submeter{
+        margin-top: -31px;
+        margin-left: 380px;
+        width: 45px;
+        height: 20px;
+        font-size: 12px;
+        border: none;
+}
+
+#procura5 .botao{
+        margin-top: -10px;
+        margin-left: 412px;
+        width: 18px;
+        height: 16px;
+        font-size: 10px;
+        font-weight:bold;
+        background: #335CAD;
+        color: white;
+        border: none;
+        outline: none;
+}
+
+#procura6{
+        margin: 0px;
+        margin-top: -20px; //-42px; //-20px;
+        margin-left: 15px;
+        height: 27px;
+        width: 430px;
+        background: #335CAD;
+        padding: 0px;
+        display: none;
+        //position: fixed;
+}
+
+#procura6 .usuario{
+        margin-left: 18px;
+        height: 22px;
+        width: 120px;
+}
+
+#procura6 .grupo{
+        margin-top: -32px;
+        margin-left: 145px;
+        height: 22px;
+        width: 120px;
+}
+
+#procura6 select{
+        margin-top: -31px;
+        margin-left: 270px;
+        width: 94px;
+        background: #335CAD;
+        color: white;
+        border: none;
+        outline: none;
+}
+
+#procura6 .submeter{
+        margin-top: -31px;
+        margin-left: 370px;
+        width: 45px;
+        height: 20px;
+        font-size: 12px;
+        border: none;
+}
+
+#procura6 .botao{
+        margin-top: -10px;
+        margin-left: 412px;
+        width: 18px;
+        height: 16px;
+        font-size: 10px;
+        font-weight:bold;
+        background: #335CAD;
+        color: white;
+        border: none;
+        outline: none;
+}
+
+.modal-body{
+        width: 550px;
+        background: white;
+}
+#myModal{
+        margin: 0px;
+        padding: 0px;
+        margin-left: 25em;
+        margin-top: 10em;
+        width: 565px;
+}
+
+#grupo1{
+        margin-top: 5em;
+        padding: 0px;
+}
+
+#grupo1 img{
+        margin-top: -32px;
+        margin-left: 105px;
+        padding: 0px;
+}
+
+#grupo2{
+        margin-top: 0em;
+        padding: 0px;
+}
+
+#grupo3{
+        margin-top: 22px; //22px;
+        padding: 0px;
+        margin-left: 22em;
+}
+#grupo3 table{
+        margin-top: 0px;
+        padding: 0px;
+        width: 20em;
+}
+/*
+#grupo4{
+        margin-top: -345em;
+        padding: 0px;
+        margin-left: 52em;
+        position: fixed;
+        overflow: auto;
+        height: 300px;
+        width: 200px;
+}
+*/
+
+#grupo4{
+        margin-top: 40px;
+        padding: 0px;
+        margin-left: 55em;
+        position: fixed;
+        overflow: auto;
+        height: 300px;
+        width: 200px;
+}
+
+#grupo4 div{
+        font-size: 17px;
+}
+
+#grupo5 a{
+    width: 100px;
+    height: 32px;
+    font-size: 11px;
+    text-align: center;
+}
+
+#grupo5 #gp{
+    text-align: center;
+}
+
+#grupo5 .modal-dialog{
+    width: 400px;
+}
+
+#grupo5 .modal-body{
+    width: 398px;
+}
+
+#grupo5 #cgrupo{
+    width: 280px;
+    margin-left: 50px;
+}
+
+#grupo5 button{
+    width: 140px;
+    float: right;
+    margin-right: 18px;
+}
+
+#grupo6{
+    margin-left: 450px;
+    margin-top: 200px;
+    width: 620px;
+    height: 900px;
+}
+
+#grupo7{
+    margin-left: 147px;
+    height: 0px;
+    width: 130px;
+}
+
+#grupo7 .login{
+    height: 23px;
+    text-align: center;
+}
+
+#grupo7 .submeter{
+    margin-top: -32px;
+    margin-left: 133px;
+    height: 20px;
+    width: 40px;
+    font-size: 11px;
+    border: none;
+    outline: none;
+    background: #335CAD;
+    color: white;
+    font-weight: bolder;
+}
+
+#grupo8{
+        margin-top: 40px;
+        padding: 0px;
+        margin-left: 5em;
+        position: fixed;
+        overflow: auto;
+        height: 540px;
+        width: 200px;
+}
+
+#grupo8 div{
+        font-size: 17px;
+}
+
+#procura6 p{
+    margin-top: -16px;
+    margin-left: 0em;
+    width: 275px;
+    background: #335CAD;
+    color: #F7F7F7;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+#grupo6 .modal-content{
+    width: 300px;
+}
+
+#grupo6 .modal-body{
+    width: 298px;
+}
+
+#grupo6 .modal-dialog{
+    width: 500em;
+    height: 50em;
+    overflow: hidden;
+}
+
+#lock form{
+    background:url(../img/unlock.png) no-repeat;
+    height: 22px;
+}
+
+#grupo3 form input[type=checkbox]:before{
+    content: ""; 
+    display: inline-block; 
+    width: 32px; 
+    height: 32px;
+    margin-top: -8px;
+    margin-left: -7px;
+    background: url(../img/lixo.png) no-repeat;
+}
+
+#grupo3 form input[type=checkbox]:checked:before{
+    width: 32px;
+    height: 32px;
+    margin-top: -8px;
+    margin-left: -7px;
+    background: url(../img/lixo.png) no-repeat;
+}
+
+#index1{
+    margin-top: 100px;
+    padding-top: 40px;
+}
+
+#index1 img{
+    margin-left: 40px;
+}
+
+#index3{
+    height: auto;
+    width: 263px;
+    margin-top: -20px;
+    background-color: rgb(50, 118, 177);
+    color: white;
+    display: none;
+}
+
+.input-group-addon{
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+    color: rgb(255, 255, 255);
+}
+
+
